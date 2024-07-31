@@ -1,0 +1,64 @@
+*{
+	margin: 10px;
+	padding: 0px;
+}
+body { 
+	background-color: lightblue; /*cambia el color de fondo del body*/
+	border-style: dotted;
+}
+header{
+	background-color: lightgreen;
+	font-size: 25px;
+	font-family: Times new roman;
+	border-style: dashed;
+	border-bottom-width: 10px;
+	border-left-width: 5px;
+	border-color: red;
+	padding-left: 1px;
+	background-image: url("kinesiologia1.jpg")
+
+}
+footer {
+	background-color: lightcoral;}
+	main{
+		background-color: lightyellow;
+		width: 75%;
+		border-top: solid;
+		margin:5px;  
+		
+	}
+
+nav a{
+
+	background-color: hotpink;
+	font-size: 2em;
+	font-family: ARIAL;/*cambio el tipo de letra*/
+	border-style: solid; /*coloca borde a los enlaces*/
+	padding-left: 10px;
+
+
+}
+
+
+aside{
+background-image: url(columna.jpg);
+width: 30%;
+
+
+
+
+
+
+}
+footer {
+	border-top-style: solid;
+}
+.resaltado{/*creo una clase con estilos*/
+	background-color: #dff601;
+	color: black;
+}
+.miclase{
+	background-color: lightgreen;
+}
+#destacado{
+	color: lightblue;
